@@ -21,10 +21,11 @@ int min(int arr[], int len)
 }
 float average(int arr[], int len)
 {
-	float average, sum;
+	float average, sum=0;
 	for( int i=0; i<len; i++)
 	sum+=arr[i];
-	return average=sum/len;
+	average=sum/len;
+	return average;
 }
 int mode(int arr[], int len)
 {
